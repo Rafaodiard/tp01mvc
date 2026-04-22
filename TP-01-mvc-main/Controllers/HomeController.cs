@@ -7,6 +7,7 @@ namespace tp01.Controllers;
 public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
+    Grupo grupo = new Grupo();
 
     public HomeController(ILogger<HomeController> logger)
     {
@@ -15,7 +16,14 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
+        ViewBag.grupo = grupo.getIntegrantes();
         return View();
+    }
+
+    IActionResult SelectIntegrante(int dni)
+    {
+        ViewBag.grup = grupo.getXdni(dni);
+        return View("infoIntegrante");
     }
 
     public IActionResult Privacy()
