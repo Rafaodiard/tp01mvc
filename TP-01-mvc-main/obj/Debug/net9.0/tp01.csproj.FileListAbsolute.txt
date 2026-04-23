@@ -190,5 +190,5 @@ C:\Users\49758734\Desktop\tp01mvc\TP-01-mvc-main\obj\Debug\net9.0\tp01.pdb
 C:\Users\49758734\Desktop\tp01mvc\TP-01-mvc-main\obj\Debug\net9.0\tp01.genruntimeconfig.cache
 C:\Users\49758734\Desktop\tp01mvc\TP-01-mvc-main\obj\Debug\net9.0\ref\tp01.dll
 C:\Users\49758734\Desktop\tp01mvc\TP-01-mvc-main\obj\Debug\net9.0\compressed\u3o2tk6guz-hztplges6i.gz
-C:\Users\49758734\Desktop\tp01mvc\TP-01-mvc-main\obj\Debug\net9.0\compressed\zew9zfcwlt-4pgucamj2x.gz
-C:\Users\49758734\Desktop\tp01mvc\TP-01-mvc-main\obj\Debug\net9.0\compressed\i1nhclz2d8-4pgucamj2x.gz
+C:\Users\49758734\Desktop\tp01mvc\TP-01-mvc-main\obj\Debug\net9.0\compressed\zew9zfcwlt-yx3ykm2rnv.gz
+C:\Users\49758734\Desktop\tp01mvc\TP-01-mvc-main\obj\Debug\net9.0\compressed\i1nhclz2d8-yx3ykm2rnv.gz

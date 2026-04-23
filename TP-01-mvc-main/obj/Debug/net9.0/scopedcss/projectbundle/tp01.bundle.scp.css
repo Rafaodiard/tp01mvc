@@ -51,6 +51,7 @@ button.accept-policy[b-5328kvihcy] {
 .logo[b-5328kvihcy]{
 width: 99%;
 height: auto;
+margin-right: 2%;
 }
 header[b-5328kvihcy]{
 height: 50px;
@@ -74,4 +75,11 @@ background-color: #c4d6e9;
   width: 75px;
   height: auto;
   margin: 15%;
+}
+.botonesNav[b-5328kvihcy]{
+  margin-left:50%;
+}
+.ulnav[b-5328kvihcy]{
+  width: fit-content;
+  margin-left: 2%;
 }
