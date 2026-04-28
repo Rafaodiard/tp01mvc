@@ -1,6 +1,5 @@
 /* _content/tp01/Views/Shared/_Layout.cshtml.rz.scp.css */
-/* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
-for details on configuring this project to bundle and minify static web assets. */
+
 
 a.navbar-brand[b-5328kvihcy] {
   white-space: normal;
@@ -51,8 +50,7 @@ button.accept-policy[b-5328kvihcy] {
 .logo[b-5328kvihcy]{
 width: 99%;
 height: auto;
-margin-right: 2%;
-}
+margin-right: 2%;}
 header[b-5328kvihcy]{
 height: 50px;
 width: auto;
@@ -62,13 +60,12 @@ width: auto;
 background-color: #c4d6e9;
 }
 .container[b-5328kvihcy]{
-      color: rgb(158, 108, 34);
+color: rgb(158, 108, 34);
 }
 .imagenLogo[b-5328kvihcy]{
-  width:75px;
+  width:95px;
   height: auto;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 5%;
 
 }
 .enlace-logo[b-5328kvihcy]{

@@ -1,4 +1,8 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
-
+@foreach(int item in ViewBag.Grupo.Keys)
+{
+    Integrante integrante = ViewBag.grupo[item];
+    <img src="@(integrante.getFoto())" alt="asd" class="ImagenIntegrante"/>
+} 

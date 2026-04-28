@@ -22,7 +22,6 @@ C:\Users\50235299\Desktop\tp01mvc\TP-01-mvc-main\obj\Debug\net9.0\rjsmcshtml.dsw
 C:\Users\50235299\Desktop\tp01mvc\TP-01-mvc-main\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\50235299\Desktop\tp01mvc\TP-01-mvc-main\obj\Debug\net9.0\scopedcss\bundle\tp01.styles.css
 C:\Users\50235299\Desktop\tp01mvc\TP-01-mvc-main\obj\Debug\net9.0\scopedcss\projectbundle\tp01.bundle.scp.css
-C:\Users\50235299\Desktop\tp01mvc\TP-01-mvc-main\obj\Debug\net9.0\compressed\u3o2tk6guz-b9sayid5wm.gz
 C:\Users\50235299\Desktop\tp01mvc\TP-01-mvc-main\obj\Debug\net9.0\compressed\opg2lxcz8v-61n19gt1b8.gz
 C:\Users\50235299\Desktop\tp01mvc\TP-01-mvc-main\obj\Debug\net9.0\compressed\pv632xlw2t-xtxxf3hu2r.gz
 C:\Users\50235299\Desktop\tp01mvc\TP-01-mvc-main\obj\Debug\net9.0\compressed\3dpapig7fv-t1cqhe9u97.gz
@@ -84,8 +83,6 @@ C:\Users\50235299\Desktop\tp01mvc\TP-01-mvc-main\obj\Debug\net9.0\compressed\9qi
 C:\Users\50235299\Desktop\tp01mvc\TP-01-mvc-main\obj\Debug\net9.0\compressed\pwae78y3xr-9vr69e8ynj.gz
 C:\Users\50235299\Desktop\tp01mvc\TP-01-mvc-main\obj\Debug\net9.0\compressed\t1e8e299lw-87fc7y1x7t.gz
 C:\Users\50235299\Desktop\tp01mvc\TP-01-mvc-main\obj\Debug\net9.0\compressed\gtwa9qb2tn-mlv21k5csn.gz
-C:\Users\50235299\Desktop\tp01mvc\TP-01-mvc-main\obj\Debug\net9.0\compressed\zew9zfcwlt-dcypbxixym.gz
-C:\Users\50235299\Desktop\tp01mvc\TP-01-mvc-main\obj\Debug\net9.0\compressed\i1nhclz2d8-dcypbxixym.gz
 C:\Users\50235299\Desktop\tp01mvc\TP-01-mvc-main\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\50235299\Desktop\tp01mvc\TP-01-mvc-main\obj\Debug\net9.0\staticwebassets.build.json.cache
 C:\Users\50235299\Desktop\tp01mvc\TP-01-mvc-main\obj\Debug\net9.0\staticwebassets.development.json
@@ -192,3 +189,6 @@ C:\Users\49758734\Desktop\tp01mvc\TP-01-mvc-main\obj\Debug\net9.0\ref\tp01.dll
 C:\Users\49758734\Desktop\tp01mvc\TP-01-mvc-main\obj\Debug\net9.0\compressed\u3o2tk6guz-hztplges6i.gz
 C:\Users\49758734\Desktop\tp01mvc\TP-01-mvc-main\obj\Debug\net9.0\compressed\zew9zfcwlt-yx3ykm2rnv.gz
 C:\Users\49758734\Desktop\tp01mvc\TP-01-mvc-main\obj\Debug\net9.0\compressed\i1nhclz2d8-yx3ykm2rnv.gz
+C:\Users\50235299\Desktop\tp01mvc\TP-01-mvc-main\obj\Debug\net9.0\compressed\u3o2tk6guz-hztplges6i.gz
+C:\Users\50235299\Desktop\tp01mvc\TP-01-mvc-main\obj\Debug\net9.0\compressed\zew9zfcwlt-75w8v9qshc.gz
+C:\Users\50235299\Desktop\tp01mvc\TP-01-mvc-main\obj\Debug\net9.0\compressed\i1nhclz2d8-75w8v9qshc.gz

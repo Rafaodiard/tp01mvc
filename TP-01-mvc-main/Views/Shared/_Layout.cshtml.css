@@ -49,8 +49,7 @@ button.accept-policy {
 .logo{
 width: 99%;
 height: auto;
-margin-right: 2%;
-}
+margin-right: 2%;}
 header{
 height: 50px;
 width: auto;
@@ -63,10 +62,9 @@ background-color: #c4d6e9;
 color: rgb(158, 108, 34);
 }
 .imagenLogo{
-  width:75px;
+  width:95px;
   height: auto;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 5%;
 
 }
 .enlace-logo{

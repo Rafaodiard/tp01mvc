@@ -8,10 +8,10 @@ public class Grupo
     }
     private void CargaDatosManual()
     {
-        Integrantes.Add(1,new Integrante(49761294,"jorge",new DateTime(2009,9,27) ,/*foto*/"",new List <string>{"mama", "papa", "hermano"},new List <string>{"manga","futbol","roblox","cubo rubik","series"}));
-        Integrantes.Add(2,new Integrante(50235299,"Fran", new DateTime(2010,4,14),/*foto*/"",new List <string>{"mama", "papa", "hermano"},new List <string>{"tenis","minecraft","heavy metal"}));
-        Integrantes.Add(3,new Integrante(50235173,"dante",new DateTime(2010,4,5),"images/dante.jpg",new List <string>{"mama", "papa", "hermana"},new List <string>{"dormir","jugar","no estudiar"}));
-        Integrantes.Add(4,new Integrante(49758734, "rafa",new DateTime(2009,9,9), /*foto*/"",new List <string>{"mama", "papa", "hermano"},new List <string>{"cubo rubik","anime","lol"} ));
+        Integrantes.Add(49761294,new Integrante("jorge",new DateTime(2009,9,27) ,/*foto*/"",new List <string>{"mama", "papa", "hermano"},new List <string>{"manga","futbol","roblox","cubo rubik","series"}));
+        Integrantes.Add(50235299,new Integrante("Fran", new DateTime(2010,4,14),/*foto*/"",new List <string>{"mama", "papa", "hermano"},new List <string>{"tenis","minecraft","heavy metal"}));
+        Integrantes.Add(50235173,new Integrante("dante",new DateTime(2010,4,5),"images/dante.jpg",new List <string>{"mama", "papa", "hermana"},new List <string>{"dormir","jugar","no estudiar"}));
+        Integrantes.Add(49758734,new Integrante("rafa",new DateTime(2009,9,9), /*foto*/"",new List <string>{"mama", "papa", "hermano"},new List <string>{"cubo rubik","anime","lol"} ));
     }
     public Dictionary<int, Integrante> getIntegrantes()
     {
@@ -20,11 +20,11 @@ public class Grupo
     public Integrante getXdni(int dni)
     {
         Integrante integrante = null;
-        foreach (var item in Integrantes.Values)
+        foreach (var item in Integrantes.Keys)
         {
-            if(dni == item.getDni())
+            if(dni == item)
             {
-                integrante =  item;
+                integrante =  Integrantes[item];
             }            
         }
 

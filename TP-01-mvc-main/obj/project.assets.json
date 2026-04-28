@@ -8,23 +8,23 @@
     "net9.0": []
   },
   "packageFolders": {
-    "C:\\Users\\49758734\\.nuget\\packages\\": {},
+    "C:\\Users\\50235299\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\49758734\\Desktop\\tp01mvc\\TP-01-mvc-main\\tp01.csproj",
+      "projectUniqueName": "C:\\Users\\50235299\\Desktop\\tp01mvc\\TP-01-mvc-main\\tp01.csproj",
       "projectName": "tp01",
-      "projectPath": "C:\\Users\\49758734\\Desktop\\tp01mvc\\TP-01-mvc-main\\tp01.csproj",
-      "packagesPath": "C:\\Users\\49758734\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\49758734\\Desktop\\tp01mvc\\TP-01-mvc-main\\obj\\",
+      "projectPath": "C:\\Users\\50235299\\Desktop\\tp01mvc\\TP-01-mvc-main\\tp01.csproj",
+      "packagesPath": "C:\\Users\\50235299\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\50235299\\Desktop\\tp01mvc\\TP-01-mvc-main\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\49758734\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\50235299\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
