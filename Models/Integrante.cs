@@ -19,6 +19,10 @@ public class Integrante
     {
         return Foto;
     }
+    public string getNombre()
+    {
+        return Nombre;
+    }
 
 
 }

@@ -4,7 +4,7 @@ html {
 *{
   margin: 0;
   padding:0;
-   border: 1px solid black;
+  border: 1px solid black;
 }
 
 @media (min-width: 768px) {
@@ -37,4 +37,18 @@ body {
 
 body{
   background-color: #849cb4;
+}
+main{
+  margin-top: 50px;
+}
+.ImagenIntegrante{
+width: 200px;
+height: auto;
+}
+.nombre{
+  font-size: 30px;
+  color:  rgb(58, 54, 54);
+}
+.integrantes{
+  margin-top: 5px;
 }

@@ -1,8 +1,14 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
-@foreach(int item in ViewBag.Grupo.Keys)
-{
-    Integrante integrante = ViewBag.grupo[item];
-    <img src="@(integrante.getFoto())" alt="asd" class="ImagenIntegrante"/>
-} 
+<main>
+<div class="integrantes">
+    @foreach(int item in ViewBag.Grupo.Keys)
+    {
+        Integrante integrante = ViewBag.grupo[item];
+        <h1 class="nombre">@integrante.getNombre()</h1>
+        <img src="@(integrante.getFoto())" alt="asd" class="ImagenIntegrante"/>
+        <a href="@Url.Action("SelectIntegrante","Home", new {dni = item})">Mas informacion</a>
+    } 
+</div>
+</main>

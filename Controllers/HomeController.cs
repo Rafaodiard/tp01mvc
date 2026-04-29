@@ -20,9 +20,9 @@ public class HomeController : Controller
         return View();
     }
 
-    IActionResult SelectIntegrante(int dni)
+    public IActionResult SelectIntegrante(int dni)
     {
-        ViewBag.grup = grupo.getXdni(dni);
+        ViewBag.grupo = grupo.getXdni(dni);
         return View("infoIntegrante");
     }
 
