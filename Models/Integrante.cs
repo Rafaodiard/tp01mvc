@@ -23,6 +23,27 @@ public class Integrante
     {
         return Nombre;
     }
+    public int getEdad()
+    {
+        DateTime hoy = DateTime.Today;
+        int edad = hoy.Year - FechaDeNacimiento.Year;
 
+            // Si todavía no cumplió años este año, restamos 1
+    if (FechaDeNacimiento.Date > hoy.AddYears(-edad))
+    {
+        edad--;
+    }
+
+    return edad;
+    }
+    public List<string> getFam()
+    {
+        return Familiares;
+    }
+       public List<string> getIntereses()
+    {
+        return Intereses;
+    } 
+    
 
 }

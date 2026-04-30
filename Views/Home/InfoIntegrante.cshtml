@@ -2,7 +2,31 @@
     ViewData["Title"] = "Informacion";
 }
 <main>
-<ol>
-    <li>Dni: @ViewBag</li>
+@{Integrante integrante = ViewBag.grupo;}
+
+<img src="/@integrante.getFoto()" alt="asd" class="imginfo"/>
+<ol class="info">
+    <li><h1> @integrante.getNombre()</h1></li>
+    <li><p><h3>edad:</h3> @integrante.getEdad()</p></li>
+    <li>
+            <h3>familiares</h3>
+        <ul>
+            @foreach(string item in integrante.getFam())
+            {
+                <li>@item</li>
+            }
+        </ul>
+    </li>
+        <li>
+            <h3>Intereses</h3>
+        <ul>
+            @foreach(string item in integrante.getIntereses())
+            {
+                <li>@item</li>
+            }
+        </ul>
+    </li>
 </ol>
+
+
 </main>

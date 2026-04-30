@@ -4,7 +4,7 @@ html {
 *{
   margin: 0;
   padding:0;
-  border: 1px solid black;
+  
 }
 
 @media (min-width: 768px) {
@@ -51,4 +51,30 @@ height: auto;
 }
 .integrantes{
   margin-top: 5px;
+}
+.info{
+  list-style: none;
+  width: fit-content;
+  color: rgb(0, 0, 0);
+  margin-top: 19%;
+  background-color: gray;
+  border-radius: 10px;
+  transform: scale(1.8); /* 1.2 = 20% más grande */
+  transform-origin: left; /* crece desde la izquierda */
+  float: left;
+  padding-right: 40px;
+
+}
+.imginfo{
+  width: 550px;
+  height: auto;
+  float: right;
+  margin-top: 5%;
+    border-radius: 50%;
+  object-fit: cover; /* evita que se deforme */
+
+}
+
+li{
+  
 }
