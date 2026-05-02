@@ -12,6 +12,10 @@ html {
     font-size: 16px;
   }
 }
+header{
+  margin-bottom: 10%;
+}
+
 
 .btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
   box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
@@ -56,22 +60,23 @@ height: auto;
   list-style: none;
   width: fit-content;
   color: rgb(0, 0, 0);
-  margin-top: 19%;
   background-color: gray;
   border-radius: 10px;
+  margin-top:10%;
   transform: scale(1.8); /* 1.2 = 20% más grande */
   transform-origin: left; /* crece desde la izquierda */
   float: left;
   padding-right: 40px;
+  margin-bottom: 10%;
 
 }
 .imginfo{
   width: 550px;
   height: auto;
   float: right;
-  margin-top: 5%;
-    border-radius: 50%;
+  border-radius: 50%;
   object-fit: cover; /* evita que se deforme */
+  margin-bottom:10% ;
 
 }
 
