@@ -6,7 +6,8 @@ public class Integrante
     private string Foto;
     List<string> Familiares;
     List<string> Intereses;
-    public Integrante( string nombre, DateTime fecha, string foto, List<string> familiares, List<string> intereses)
+    private int dni;
+    public Integrante( string nombre, DateTime fecha, string foto, List<string> familiares, List<string> intereses, int Dni)
     {
       
         Nombre = nombre;
@@ -14,6 +15,7 @@ public class Integrante
         Foto = foto;
         Familiares = familiares;
         Intereses = intereses;
+        dni = Dni;
     }
     public string getFoto()
     {
@@ -36,6 +38,10 @@ public class Integrante
 
     return edad;
     }
+    public DateTime getFecha()
+    {
+        return FechaDeNacimiento;
+    }
     public List<string> getFam()
     {
         return Familiares;
@@ -44,6 +50,9 @@ public class Integrante
     {
         return Intereses;
     } 
-    
+    public int getDni()
+    {
+        return dni;
+    }
 
 }

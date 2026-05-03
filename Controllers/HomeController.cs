@@ -16,13 +16,13 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
-        ViewBag.grupo = grupo.getIntegrantes();
+        ViewBag.grupo = grupo.devolverIntegrantes();
         return View();
     }
 
     public IActionResult SelectIntegrante(int dni)
     {
-        ViewBag.grupo = grupo.getXdni(dni);
+        ViewBag.grupo = grupo.devolverIntegrante(dni);
         return View("infoIntegrante");
     }
 

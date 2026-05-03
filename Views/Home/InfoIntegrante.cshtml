@@ -3,11 +3,13 @@
 }
 <main>
 @{Integrante integrante = ViewBag.grupo;}
-
+<a href="index.html"><p>volver al inicio</p></a>
 <img src="/@integrante.getFoto()" alt="asd" class="imginfo"/>
 <ol class="info">
     <li><h1> @integrante.getNombre()</h1></li>
+    <li><h3>dni</h3>@integrante.getDni()</li>
     <li><p><h3>edad:</h3> @integrante.getEdad()</p></li>
+    <li><p><h3>Fecha de nacimiento</h3>@integrante.getFecha().ToString("dd-MM-yyyy")</p></li>
     <li>
             <h3>familiares</h3>
         <ul>

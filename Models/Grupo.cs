@@ -9,15 +9,15 @@ public class Grupo
     private void CargaDatosManual()
     {
        
-        Integrantes.Add(50235299,new Integrante("Fran", new DateTime(2010,4,14),"images/fran.jpg", new List <string>{"mama", "papa", "hermano"},new List <string>{"tenis","minecraft","heavy metal"}));
-        Integrantes.Add(50235173,new Integrante("Dante",new DateTime(2010,4,5),"images/dante.jpeg", new List <string>{"mama", "papa", "hermana"},new List <string>{"dormir","jugar","no estudiar"}));
-        Integrantes.Add(49758734,new Integrante("Rafa", new DateTime(2009,9,9),"images/rafa.jpeg",  new List <string>{"mama", "papa", "hermano"},new List <string>{"cubo rubik","anime","lol"} ));
+        Integrantes.Add(50235299,new Integrante("Fran", new DateTime(2010,4,14),"images/fran.jpg", new List <string>{"mama", "papa", "hermano"},new List <string>{"tenis","minecraft","heavy metal"},50235299));
+        Integrantes.Add(50235173,new Integrante("Dante",new DateTime(2010,4,5),"images/dante.jpeg", new List <string>{"mama", "papa", "hermana"},new List <string>{"dormir","jugar","no estudiar"},50235173));
+        Integrantes.Add(49758734,new Integrante("Rafa", new DateTime(2009,9,9),"images/rafa.jpeg",  new List <string>{"mama", "papa", "hermano"},new List <string>{"cubo rubik","anime","lol"},49758734 ));
     }
-    public Dictionary<int, Integrante> getIntegrantes()
+    public Dictionary<int, Integrante> devolverIntegrantes()
     {
         return Integrantes;
     }
-    public Integrante getXdni(int dni)
+    public Integrante devolverIntegrante(int dni)
     {
         Integrante integrante = null;
         foreach (var item in Integrantes.Keys)
